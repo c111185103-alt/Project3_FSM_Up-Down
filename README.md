@@ -32,7 +32,7 @@ flowchart TD
     clk --> Counter_B
     rst --> FSM
     rst --> Counter_A
-    rst --> rst --> Counter_B
+    rst --> Counter_B
 
     %% 設定參數連線
     inputs_A --> Counter_A
@@ -47,7 +47,6 @@ flowchart TD
     %% 外部輸出
     Counter_A --> out_A([頂層輸出端口 out_A])
     Counter_B --> out_B([頂層輸出端口 out_B])
-
 ```
 
 ---
