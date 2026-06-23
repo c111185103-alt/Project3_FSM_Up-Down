@@ -9,7 +9,6 @@
 
 ## 硬體架構圖 (Block Diagram)
 
-本專案架構採用 Mermaid 語法繪製，原生支援 GitHub 深色與淺色主題切換。
 
 ```mermaid
 flowchart TD
