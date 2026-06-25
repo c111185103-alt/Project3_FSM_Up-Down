@@ -9,8 +9,6 @@
 
 ## 硬體架構圖 (Block Diagram)
 
-本專案架構採用 Mermaid 語法繪製，原生支援 GitHub 深色與淺色主題切換。
-
 ```mermaid
 flowchart TD
     %% 外部輸入訊號
@@ -107,7 +105,5 @@ flowchart TD
 3. 在 Vivado 左側選單點擊 **Run Simulation -> Run Behavioral Simulation** 觀測理想功能接力波形。
 4. 點擊 **Run Simulation -> Run Post-Implementation Timing Simulation** 驗證佈線後的硬體真實延遲與穩定度。
 5. **波形觀察重點**：驗證 `out_A` 從 0 數到 7 結束後是否自動暫停，並在經過微小的實體走線延遲後，立刻由 `out_B` 接手從 15 倒數到 8，以此不斷接力循環。
-
-```
 
 ```
