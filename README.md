@@ -12,7 +12,7 @@
 ### 1. 系統架構與模組階層 (Module Breakdown)
 本專案採用模組化設計（Modular Design），將系統切分為頂層控制核心、狀態機排程器以及雙可配置計數器。以下為系統的模組樹狀拆解圖：
 
-![Project 3 模擬流程 AoV 圖](./Project3_diagram/Breakdown.drawio.png)
+![Project 3 系統 Breakdown](./Project3_diagram/Breakdown.drawio.png)
 
 ### 2. 系統電路圖與硬體方塊圖 (Hardware Block Diagram)
 硬體線路內部包含了 FSM 控制器與兩組計數器之間的閉迴路（Closed-loop）反饋訊號，包含致能訊號（`en_A / en_B`）與完工旗標（`done_A / done_B`）的動態交握：
